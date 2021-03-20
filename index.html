@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+   <title>Document</title>
+</head>
+<body>
+
+   <section class="page-section">
+      <div class="container">
+         <button class="button button__1" id="button">Показать</button>
+         <div class="text text__1 text-hidden" id="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eaque iusto deleniti dolores repudiandae corporis magnam assumenda quae architecto voluptates, voluptas culpa illum vero molestiae quam voluptatum ut libero pariatur.
+         </div>
+      </div>
+   </section>
+
+   <section class="page-section">
+      <div class="container">
+         <div class="list">
+            <div class="title" data-name="acc-title">Пункт 1</div>
+            <div class="text__item text-hidden">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta a pariatur maxime neque illo, iure aut quas modi dolor vel quo distinctio necessitatibus animi reprehenderit culpa cupiditate cumque! Dolores, a.
+            </div>
+            <div class="title" data-name="acc-title">Пункт 2</div>
+            <div class="text__item text-hidden">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta a pariatur maxime neque illo, iure aut quas modi dolor vel quo distinctio necessitatibus animi reprehenderit culpa cupiditate cumque! Dolores, a.
+            </div>
+            <div class="title" data-name="acc-title">Пункт 3</div>
+            <div class="text__item text-hidden">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta a pariatur maxime neque illo, iure aut quas modi dolor vel quo distinctio necessitatibus animi reprehenderit culpa cupiditate cumque! Dolores, a.
+            </div>
+            <div class="title" data-name="acc-title">Пункт 4</div>
+            <div class="text__item text-hidden">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta a pariatur maxime neque illo, iure aut quas modi dolor vel quo distinctio necessitatibus animi reprehenderit culpa cupiditate cumque! Dolores, a.
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="page-section">
+      <div class="container">
+         <ul class="list">
+            <li class="list__item" data-tab="tab1">tab 1</li>
+            <li class="list__item" data-tab="tab2">tab 2</li>
+            <li class="list__item" data-tab="tab3">tab 3</li>
+         </ul>
+         <div class="list__card text-hidden" data-tab-content id="tab1">
+            <h3>tab 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus rem placeat ipsum consectetur nemo, explicabo provident harum suscipit nam quibusdam perspiciatis quaerat voluptas eaque repellat, architecto autem culpa magni. Ab.</p>
+         </div>
+         <div class="list__card text-hidden" data-tab-content id="tab2">
+            <h3>tab 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus rem placeat ipsum consectetur nemo, explicabo provident harum suscipit nam quibusdam perspiciatis quaerat voluptas eaque repellat, architecto autem culpa magni. Ab.</p>
+         </div>
+         <div class="list__card text-hidden" data-tab-content id="tab3">
+            <h3>tab 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus rem placeat ipsum consectetur nemo, explicabo provident harum suscipit nam quibusdam perspiciatis quaerat voluptas eaque repellat, architecto autem culpa magni. Ab.</p>
+         </div>
+      </div>
+   </section>
+
+   <section class="page-section">
+      <div class="container">
+         <button class="button" data-modal-button="modal-1">Open Modal 1</button>
+         <button class="button" data-modal-button="modal-2">Open Modal 2</button>
+         <button class="button" data-modal-button="modal-3">Open Modal 3</button>
+         <div class="fade-block text-hidden" data-modal id="modal-1">
+            <div class="modal-window">
+               <div class="card">
+                  <div class="card__header">Modal 1</div>
+                  <div class="card__body">
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates tempore quaerat molestias. Ullam, inventore molestias! Consequatur maxime provident voluptatem quam, officiis consectetur sunt odit adipisci. Maxime voluptate temporibus nihil quia.
+                     </p>
+                     <button class="close" data-modal-close>close</button>
+                  </div>
+                  
+               </div>
+            </div>
+         </div>
+
+         <div class="fade-block text-hidden" data-modal id="modal-2">
+            <div class="modal-window">
+               <div class="card">
+                  <div class="card__header">Modal 2</div>
+                  <div class="card__body">
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates tempore quaerat molestias. Ullam, inventore molestias! Consequatur maxime provident voluptatem quam, officiis consectetur sunt odit adipisci. Maxime voluptate temporibus nihil quia.
+                     </p>
+                     <button class="close" data-modal-close>close</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="fade-block text-hidden" data-modal id="modal-3">
+            <div class="modal-window">
+               <div class="card">
+                  <div class="card__header">Modal 3</div>
+                  <div class="card__body">
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates tempore quaerat molestias. Ullam, inventore molestias! Consequatur maxime provident voluptatem quam, officiis consectetur sunt odit adipisci. Maxime voluptate temporibus nihil quia.
+                     </p>
+                     <button class="close" data-modal-close>close</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+   
+      </div>
+   </section>
+   <script src="./show-hide.js"></script>
+   <script src="./accordeon.js"></script>
+   <script src="./tabs.js"></script>
+   <script src="./modals.js"></script>
+</body>
+</html>
